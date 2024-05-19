@@ -1,7 +1,7 @@
 #include <iostream>
 
 #define N 5
-
+/*
 unsigned int graph[N][N] =
 {   
     {0, 0, 1, 3, 0}, 
@@ -9,6 +9,15 @@ unsigned int graph[N][N] =
     {0, 2, 0, 1, 0},
     {0, 0, 0, 0, 5},
     {0, 0, 0, 5, 0}
+};
+*/
+unsigned int graph[N][N] =
+{
+    {0, 7, 9, 0, 14},
+    {7, 0, 10, 15, 0},
+    {9, 10, 0, 11, 2},
+    {0, 15, 11, 0, 17},
+    {14, 0, 2, 17, 0}
 };
 
 // returns index of minimum element in array
